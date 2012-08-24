@@ -32,11 +32,11 @@ It comes in 6 flavours
 * ini.css - reset + the grid + reusable classes
 
   Other files contain all of the above plus:
-* ini-12.css - font size 12, baseline 18 set 
-* ini-13.css - font size 13, baseline 18 set 
-* ini-14.css - font size 14, baseline 20 set 
-* ini-16.css - font size 16, baseline 24 set 
-* ini-18.css - font size 18, baseline 27 set 
+* ini-12.css - font size 12, baseline 18 set
+* ini-13.css - font size 13, baseline 18 set
+* ini-14.css - font size 14, baseline 20 set
+* ini-16.css - font size 16, baseline 24 set
+* ini-18.css - font size 18, baseline 27 set
 
 Even better: Try minified version of each file to improve page load speed. 
 
@@ -76,7 +76,7 @@ Simply put this line as your first CSS file:
 
 	<link rel="stylesheet" type="text/css" href="http://www.viccolla.com/kaleidoscope/ini-16.css" media="all">
 
-	then use this markup:
+then use this markup:
 
 	<div class="wrapper">
 		<div class="row">
