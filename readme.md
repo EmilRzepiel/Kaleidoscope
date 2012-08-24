@@ -74,32 +74,32 @@ Try it out!
 Simply put this line as your first CSS file: 
 
 <pre><code>
-<link rel="stylesheet" type="text/css" href="http://www.viccolla.com/kaleidoscope/ini-16.css" media="all">
+	<link rel="stylesheet" type="text/css" href="http://www.viccolla.com/kaleidoscope/ini-16.css" media="all">
 </code> </pre>
 
 then use this markup:
 
 <pre><code>
-<div class="wrapper">
-	<div class="row">
-		<div class="col-1of2">
-			<h3>H3 title #1</h3>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. 
-			</p>
-		</div>
-		<div class="col-1of2">
-			<h3>H3 title #2</h3>
-			<p>
-				Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
+	<div class="wrapper">
+		<div class="row">
+			<div class="col-1of2">
+				<h3>H3 title #1</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. 
+				</p>
+			</div>
+			<div class="col-1of2">
+				<h3>H3 title #2</h3>
+				<p>
+					Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
 		</div>
 	</div>
-</div>
 </code> </pre>
 and watch what happens.
 
