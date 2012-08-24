@@ -72,13 +72,10 @@ Try it out!
 ------------------
 
 Simply put this line as your first CSS file: 
-<pre>
 <link rel="stylesheet" type="text/css" href="http://www.viccolla.com/kaleidoscope/ini-16.css" media="all">
-</pre>
 
 then use this markup:
 
-<pre>
 <div class="wrapper">
 	<div class="row">
 		<div class="col-1of2">
@@ -99,7 +96,6 @@ then use this markup:
 		</div>
 	</div>
 </div>
-</pre>
 
 and watch what happens.
 
