@@ -73,34 +73,30 @@ Try it out!
 
 Simply put this line as your first CSS file: 
 
-<pre><code>
-	<link rel="stylesheet" type="text/css" href="http://www.viccolla.com/kaleidoscope/ini-16.css" media="all">
-</code> </pre>
+&lt;link rel="stylesheet" type="text/css" href="http://www.viccolla.com/kaleidoscope/ini-16.css" media="all"&gt;
 
 then use this markup:
 
-<pre><code>
-	<div class="wrapper">
-		<div class="row">
-			<div class="col-1of2">
-				<h3>H3 title #1</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. 
-				</p>
-			</div>
-			<div class="col-1of2">
-				<h3>H3 title #2</h3>
-				<p>
-					Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</div>
-		</div>
-	</div>
-</code> </pre>
+&lt;div class="wrapper"&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="col-1of2"&gt;
+			&lt;h3&gt;H3 title #1&lt;/h3&gt;
+			&lt;p&gt;
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. 
+			&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class="col-1of2"&gt;
+			&lt;h3&gt;H3 title #2&lt;/h3&gt;
+			&lt;p&gt;
+				Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
 and watch what happens.
 
 Don't forget to check out the demo.html file to watch it in action. Also browse through the .css file to learn about everything it contains.
