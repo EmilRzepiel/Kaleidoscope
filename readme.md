@@ -47,26 +47,25 @@ Implement in no time
 
 This is a typical structure you use developing websites with Kaleidoscope:
 
-<code>
-.wrapper {
-	
-	.row {
-		.col-1of2 {
-			h1
-				header
-			p
-				lorem ipsum
+	.wrapper {
+		
+		.row {
+			.col-1of2 {
+				h1
+					header
+				p
+					lorem ipsum
+			}
+			.col-1of2 {
+				h1
+					header
+				p
+					lorem ipsum
+			}
 		}
-		.col-1of2 {
-			h1
-				header
-			p
-				lorem ipsum
-		}
+
 	}
 
-}
-</code>
 
 
 Try it out!
@@ -74,32 +73,32 @@ Try it out!
 
 Simply put this line as your first CSS file: 
 
-<code>
-&lt;link rel="stylesheet" type="text/css" href="http://www.viccolla.com/kaleidoscope/ini-16.css" media="all"&gt;
-</code>
-then use this markup:
 
-<code>&lt;div class="wrapper"&gt;</code>
-	<code>&lt;div class="row"&gt;</code>
-		<code>&lt;div class="col-1of2"&gt;</code>
-			<code>&lt;h3&gt;H3 title #1&lt;/h3&gt;</code>
-			<code>&lt;p&gt;</code>
-				<code>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</code>
-				<code>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</code>
-				<code>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. </code>
-			<code>&lt;/p&gt;</code>
-		<code>&lt;/div&gt;</code>
-		<code>&lt;div class="col-1of2"&gt;</code>
-			<code>&lt;h3&gt;H3 title #2&lt;/h3&gt;</code>
-			<code>&lt;p&gt;</code>
-				<code>Duis aute irure dolor in reprehenderit in voluptate velit esse</code>
-				<code>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</code>
-				<code>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</code>
-			<code>&lt;/p&gt;</code>
-		<code>&lt;/div&gt;</code>
-	<code>&lt;/div&gt;</code>
-<code>&lt;/div&gt;</code>
-</code>
+	<link rel="stylesheet" type="text/css" href="http://www.viccolla.com/kaleidoscope/ini-16.css" media="all">
+
+	then use this markup:
+
+	<div class="wrapper">
+		<div class="row">
+			<div class="col-1of2">
+				<h3>H3 title #1</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. 
+				</p>
+			</div>
+			<div class="col-1of2">
+				<h3>H3 title #2</h3>
+				<p>
+					Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
+	</div>
+
 
 and watch what happens.
 
