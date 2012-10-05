@@ -2,7 +2,9 @@ Kaleidoscope 1.0.0
 ------------------
 Simple, lightweight CSS Framework (minified to 5kb)
 by Emil Brann 
-(team Poland)
+(team Poland).
+
+Check out the demo here: <http://www.viccolla.com/kaleidoscope/demo.html>
 
 
 
@@ -115,6 +117,6 @@ Compatibility
 
 Thanks
 Emil Brann 
-http://www.viccolla.com
+<http://www.viccolla.com>
 
-PS: Thoughts? Suggestions? Wanna say "hi"? emil@viccolla.com
+PS: Thoughts? Suggestions? Wanna say "hi"? <emil@viccolla.com>
